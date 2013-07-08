@@ -54,4 +54,56 @@
     color:black;
   }
 
+  dl {
+    display:block;
+  }
+
+  dt {
+    width: 33%;
+  }
+  #tour {
+    width: 720px;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+
+  }
+
+  #registration {
+    position: absolute;
+    right: 15px;
+    border: 2px solid black;
+    padding: 16px;
+
+
+  }
+  .feature {
+    display: inline-block;
+    width: 100%;  
+    vertical-align: middle;
+  }
+  .textbox {
+    padding-top: -10px;
+    margin: 0px;
+    display: inline-block;
+    width:50%;
+    float:right;
+    vertical-align: midddle;
+  }
+  img {
+    float: left;
+    width: 49%;
+  }
+
+  h4 {
+    margin: 0px;
+  }
+
+  #pricing {
+  }
+
+  .column {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+  }
 
