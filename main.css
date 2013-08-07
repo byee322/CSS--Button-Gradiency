@@ -61,7 +61,7 @@
 
   ul.sub-menu {
     left:208px;
-    margin: 0;
+    margin-left: 9.3em !important;
     padding:0;
     width: 139px;
     list-style: none;
@@ -85,8 +85,15 @@
     padding: 0px;
   }
 
+  ul.sub-menu li:hover{
+    background-color: #fff !important;
+  }
+
+  ul.sub-menu li:last-child:hover{
+  }
+
   ul li:hover ul.sub-menu {
-    display: inline-block;
+    display: block;
   }
 
   a {
